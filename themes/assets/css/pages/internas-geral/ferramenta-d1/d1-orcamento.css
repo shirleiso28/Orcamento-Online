@@ -1,0 +1,357 @@
+body, html {
+  font-family:'BrandonGrotesque-Regular' !important;
+  line-height: 30px !important;
+}
+
+/*INICIO TELA 1*/
+.intro{
+	background-color: #ffffff;
+	padding-top: 50px;
+}
+
+.intro h1{
+	color: #277CEA;
+}
+
+
+.intro .ondabanner{
+	min-height: 100px;
+	/*background-image: url(../../img/internas-geral/ferramenta-d1/onda.svg);*/
+	background-position: bottom;
+	background-size: 104%;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+}
+
+
+.carousel{
+	margin-bottom: 0;
+	background-image: linear-gradient(-180deg, #38437A 2%, #2F4BC2 100%);
+}
+.receita{
+	background-image: linear-gradient(-180deg, #38437A 2%, #2F4BC2 100%);
+    color: white;
+    padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.receita h2{
+	font-family: BrandonGrotesque-Bold;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+
+.receita p{
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.receita .container{
+	padding-bottom: 30px;
+}
+
+.receita .container-mobile{
+	padding-bottom: 30px;
+}
+.receita .tabela-receita{
+	border-collapse: separate;
+    border-spacing: 0;
+    margin:0;
+}
+
+.receita .navegacao{
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	border-top: solid 1px #277cea;
+	padding-top: 30px;
+}
+.receita .container .navegacao{
+	border-top: 0;
+}
+
+.receita .tabela-receita .superior-esq{
+	border-radius: 15px 0 0 0;
+}
+
+.receita .tabela-receita .superior-dir{
+	border-radius: 0 15px 0 0;
+}
+
+.receita .tabela-receita .inferior-esq{
+	border-radius: 0 0 0 15px;
+}
+.receita .tabela-receita .inferior-dir{
+	border-radius: 0 0 15px 0;
+}
+
+.receita thead td{
+	border:0;
+	padding: 0;
+}
+
+.cor-selecao{
+	background-color: #277cea;
+}
+
+/*FIM TELA 1*/
+
+/*INICIO TELA 2*/
+
+/*.preencher-grau .navegacao{
+	border-top: solid 1px #277cea;
+	padding-top: 30px;
+}*/
+
+/*Global - mesma configuração em todas as telas*/
+.btn-navegacao{
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: space-between;
+	justify-content: space-between;
+}
+
+
+.preencher-grau .selecao-olho label{
+	padding: 0;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+
+.preencher-grau select {  
+    background: url(http://192.168.0.10/lenscope3/themes/lens_tema_3/assets/img/internas-geral/ferramenta-d1/seta-baixo.svg) center right no-repeat #FFFFFF;     
+    height:48px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */    
+	color:#99A3CE; /* Cor da Fonte */    
+    border-radius: 10px; 
+    -webkit-appearance: none;
+      -moz-appearance: none;
+      text-indent: 1px;
+      text-overflow: '';
+}
+
+.preencher-grau .selecao-olho .selecao{
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	padding: 0;
+}
+
+.preencher-grau.preencher,
+.preencher-grau .preencher .selecao-olho{
+	padding: 0;
+}
+
+
+.preencher-grau .preencher{
+	padding-left: 0;
+	padding-right: 0;
+}
+.preencher-grau  .btn-navegacao-mobile{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.preencher-grau .selecao-olho-esq select, .navegacao .btn-next{
+	pointer-events: none;
+    opacity: 0.5;
+}
+
+.preencher-grau .linha{
+	border-top: solid 1px #277cea;
+/*    padding-top: 40px;*/
+}
+
+/*FIM TELA 2*/
+
+/*INICIO TELA 3*/
+.receita-t3 .cilindrico{
+	background-color: #277cea;
+}
+/*FIM TELA 3*/
+
+/*INICIO TELA 4*/
+/*bloquear grau olho esquerdo*/
+/*FIM TELA 4*/
+
+/*INICIO TELA 5*/
+
+.receita input{
+	height:48px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */    
+	color:#99A3CE; /* Cor da Fonte */    
+    border-radius: 10px;
+}
+/*FIM TELA 5*/
+
+
+/*INICIO TELA 6*/
+.receita .add-seta {
+	border: 0;
+	vertical-align: inherit;
+	padding-left: 0;
+}
+
+
+.receita .vertical p{
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg); /* Safari/Chrome */
+	-moz-transform: rotate(-90deg); /* Firefox */
+	-o-transform: rotate(-90deg); /* Opera */
+	-ms-transform: rotate(-90deg); /* IE 9 */
+	text-transform: uppercase;
+}
+
+.receita .vertical{
+	vertical-align: inherit;
+	width: 45px;
+	border-radius: 15px 0 0 15px;
+	background-color: #277cea;
+	padding: 0;
+}
+
+.receita-t6 .titulo-olho{
+	width: 45px;
+}
+
+.receita-t6 .tabela-receita{
+	margin-bottom: 30px;
+}
+
+.receita .perto-longe{
+	padding-left: 0;
+}
+
+.receita-t6 .simNao{
+	padding-top: 0;
+}
+/*FIM TELA 6*/
+
+/*INICIO TELA 7*/
+.receita-t7 label{
+	font-family:'BrandonGrotesque-Light' !important;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.receita-t7 .escolhaAdd{
+	display: flex;
+    align-items: center;
+}
+
+.receita-t7 .escolhaAdd input{
+	height: 20px;
+}
+
+.modeloReceita{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+.receita-t7 .tabela-receita {
+    margin-bottom: 30px;
+}
+
+.receita-t7 .navegacao{
+	border-top: solid 1px #277cea;
+}
+
+/*FIM TELA 7*/
+
+/*INICIO TELA 8*/
+.receita-t8 .add{
+	background-color: #277cea;
+}
+
+/*.receita-t8 input {
+    height: 48px;
+    color: #99A3CE;
+    border-radius: 10px;
+}*/
+/*FIM TELA 8*/
+
+/*INICIO TELA 9*/
+.receita-t9 .titulo .vertical{
+	background-color: transparent;
+}
+
+/*FIM TELA 9*/
+
+/*INICIO TELA 10*/
+.receita-t10 h2{
+	margin-bottom: 15px;
+}
+
+.receita-t10 label{
+	color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 15px;
+    letter-spacing: 0.97px;
+}
+
+.receita-t10 p{
+	margin-bottom: 10px;
+}
+
+/*Ajustando formatação da tabela*/
+	/*Bordas tabela geral*/
+	.table-bordered td{
+		border-right: 0;
+	    border-bottom: 0
+	}
+	.olho-esquerdo .titulo-olho,.olho-esquerdo .esferico,.olho-esquerdo .cilindrico, .olho-esquerdo .eixo{
+		border-bottom: 1px solid #f6f6f6;
+	}
+
+	.olho-esquerdo .eixo, .olho-direito .eixo, .titulo .eixo{
+		border-right: 1px solid #f6f6f6;
+	}
+	/*Bordas tabelas add e perto*/
+	.tabela-adicao .add{
+		border-bottom: 1px solid #f6f6f6;
+		border-top: 0;
+	}
+	.tabela-adicao .inferior-dir, .tabela-adicao .od-perto .eixo{
+		border-right: 1px solid #f6f6f6;
+	}
+	.tabela-adicao .vertical, .tabela-adicao .oe-perto .titulo-olho,.tabela-adicao .oe-perto .esferico, .tabela-adicao .oe-perto .cilindrico, .tabela-adicao .oe-perto .eixo{
+		border-bottom: 1px solid #f6f6f6;
+	} 
+
+	/*Tamanho de tela*/
+	.esferico{
+		width: 114px;
+	}
+	.cilindrico{
+		width: 98px;
+	}
+	.eixo{
+		width: 70px;
+	}
+
+	.od-perto .esferico,.oe-perto .esferico{
+		min-width: 82px;
+	}
+/*Fim ajustes tabela*/
+
+
+/*FIM TELA 10*/
+
+
+@media(max-width: 425px){
+	.intro .ondabanner{
+		min-height: 60px;
+	}
+}

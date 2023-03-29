@@ -1,0 +1,439 @@
+.resultado{
+	background-image: linear-gradient(-180deg, #38437A 2%, #2F4BC2 100%);
+    color: white;
+    padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.resultado h1{
+	font-family: BrandonGrotesque-Bold;
+	color: #FFFFFF;
+}
+
+.resultado p{
+	color: #FFFFFF;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+/*RESULTADO LENSCOPE*/
+.resultado-lenscope .valor-lentes a{
+	text-decoration: underline;
+    color: #38437A;
+    font-family: BrandonGrotesque-Regular;
+    font-size: 18px;
+}
+.resultado-lenscope .lente-menosquatro{
+	padding-top: 40px;
+	padding-bottom: 120px;
+}
+
+.resultado-lenscope .lente-menosquatro p{
+	margin-bottom: 0;
+}
+.resultado-lenscope .lente-menosquatro .titulo-sessao-len{
+	color: #FFFFFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.resultado-lenscope .conteudo-lentes{
+	background-color: #FFFFFF;
+	border-radius: 15px;
+	box-shadow: 0 2px 4px 0 rgba(56,67,122,.28);
+	/*padding-left: 30px;
+	padding-right: 30px;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+.resultado-lenscope .conteudo-lentes p, .resultado-lenscope .conteudo-lentes ul li{
+	color: #38437A;
+}
+
+.resultado-lenscope .lente-container .btn-lentes-geral{
+	padding-top: 10px;
+	text-align: center;
+	display: block;
+    padding-bottom: 10px;
+}
+
+.resultado-lenscope .lente-container .btn-lentes-geral .item1 {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+.resultado-lenscope .lente-container .btn-lentes-geral.btn-lentes-lenscope .item2 {
+    padding-bottom: 4px;
+    padding-top: 0px;
+}
+
+.resultado-lenscope .lente-container .btn-lentes-geral.btn-lentes-lenscope .item3 {
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+
+.resultado-lenscope .lente-container .btn-lentes-geral.btn-lentes-lenscope .item4 {
+	padding-left: 4px;
+	padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+
+.resultado-lenscope .lente-container .btn-lentes-geral .selecionado{
+    font-family: BrandonGrotesque-Bold;
+    background-color: #fff !important;
+    font-size: 11px;
+    color: #5D79B0;
+
+    letter-spacing: 1.97px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid 1px #FFFFFF;
+    outline: none !important;
+}
+
+.resultado-lenscope .lente-container .btn-lentes-geral .btn.branco-vazado {
+    width: 100%;
+}
+
+.resultado-lenscope .carousel-cell ul li p::before{
+	content: url(../../img/nossas-lentes/check.svg);
+	padding-right: 11px;
+}
+
+.resultado-lenscope .duvidas-frequentes .img-fluid{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.conteudo-lentes-row .lente-item .fim-div{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.resultado-lenscope .conteudo-lentes-row .carousel-cell:nth-child(2){
+	border-left: solid 1px #D7DCE1;
+	border-right: solid 1px #D7DCE1;
+	text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.resultado-lenscope .conteudo-lentes-row .carousel-cell:nth-child(1){
+	text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.resultado-lenscope .conteudo-lentes-row .carousel-cell:nth-child(3){
+	text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.resultado-lenscope .conteudo-lentes-row .carousel-cell:nth-child(4){
+	text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.resultado-lenscope .conteudo-lentes .flex-container {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-align-content: stretch;
+	-ms-flex-line-pack: stretch;
+	align-content: stretch;
+}
+
+.resultado-lenscope .conteudo-lentes .flex-item:nth-child(1) {
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	-webkit-flex: 0 1 auto;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-webkit-align-self: auto;
+	-ms-flex-item-align: auto;
+	align-self: auto;
+}
+
+.resultado-lenscope .conteudo-lentes .flex-item:nth-child(2) {
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	-webkit-flex: 0 1 auto;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-webkit-align-self: auto;
+	-ms-flex-item-align: auto;
+	align-self: auto;
+}
+
+.resultado-lenscope .conteudo-lentes .flex-item:nth-child(3) {
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	-webkit-flex: 0 1 auto;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-webkit-align-self: auto;
+	-ms-flex-item-align: auto;
+	align-self: auto;
+}
+
+.resultado-lenscope .conteudo-lentes-row .flex-container.card-lente{
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+} 
+
+.resultado-lenscope .conteudo-lentes-row .flex-container.card-lente .flex-item{
+	-webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+} 
+
+.resultado-lenscope .conteudo-lentes-row .flex-container.card-lente{
+	-webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+} 
+
+.resultado-lenscope .conteudo-lentes .tooltip-info{
+	width: 20px;
+	cursor: pointer;
+}
+
+.resultado-lenscope .conheca-armacoes .carousel-cell{
+	margin-bottom: 5px;	
+	padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.resultado-lenscope .conheca-armacoes .produto-item .img-p img{
+	width: 100%;
+	position: relative;
+}
+
+/*Inicio conteudo-lentes-lenscope*/
+
+.conteudo-lentes-lenscope__card--head,
+.conteudo-lentes-lenscope__card--body{
+	padding: 0px;
+	padding-bottom: 35px;
+	padding-top: 35px;
+	border-bottom: solid 1px #D7DCE1;
+}
+
+.conteudo-lentes-lenscope__card--first .conteudo-lentes-lenscope__card--head,
+.conteudo-lentes-lenscope__card--first .conteudo-lentes-lenscope__card--body{
+	padding-top: 0px;
+}
+
+.conteudo-lentes-lenscope__card--last .conteudo-lentes-lenscope__card--head,
+.conteudo-lentes-lenscope__card--last .conteudo-lentes-lenscope__card--body{
+	padding-bottom: 0px;
+	border-bottom: 0px;
+}
+
+.conteudo-lentes-lenscope__card.flex-container{
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-align-content: stretch;
+	-ms-flex-line-pack: stretch;
+	align-content: stretch;
+}
+
+.conteudo-lentes-lenscope__card--head.flex-item{
+	-webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.conteudo-lentes-lenscope__card--body.flex-item{
+	-webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+/*Fim conteudo-lentes-lenscope*/
+
+
+/*FIM RESULTADO LENSCOPE*/
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+	.resultado-lenscope .lente-menosquatro{
+		padding-bottom: 90px;
+	}
+
+	/*Ajuste lente-item no mobile*/
+	.resultado-lenscope .conteudo-lentes .lente-item-mobile {
+	    width: 86%;
+	    margin-left: 5px;
+	    margin-right: 5px;
+	    /*Necessidade do important -> existe uma class acima que sempre deixa o height
+	    100%, o que gera bug no mobile quando o smartphone alterna entre horizontal e
+	    vertical*/
+	    height: 340px!important;
+	}
+
+	.resultado-lenscope .conteudo-lentes-mobile{
+		/*Remove o padding do container para mobile*/
+		padding: 0px;
+	}
+
+	.lente-container-mobile{
+		/*Pega 100% da página para o container mobile*/
+		width: 100%;
+	}
+	/*Fim ajuste lente-item no mobile*/
+
+	.conteudo-lentes-lenscope__card.flex-container{
+		display: block!important;
+	}
+	.conteudo-lentes-lenscope{
+		padding: 0px;
+	}
+	.conteudo-lentes-lenscope__card--head,
+	.conteudo-lentes-lenscope__card--body{
+		border: 0px;
+		padding: 0px;
+	}
+
+	.conteudo-lentes-lenscope__card--body .fim-div{
+		padding: 15px;
+	}
+
+	.conteudo-lentes-lenscope__card{
+		background-color: #FFFFFF;
+	    border-radius: 12px;
+	    box-shadow: 0 2px 4px 0 rgba(56,67,122,.28);
+	    padding: 15px;
+	    margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 580px){
+	.nossas-lentes .conteudo-lentes-mobile{
+		/*Remove o padding do container para mobile*/
+		padding: 0px;
+	}
+	.resultado-lenscope .lente-container .btn-lentes-geral .item1 .btn::before{
+		/*content: url('../../img/nossas-lentes/seta-e.svg');*/
+		left: 7px;
+		position: absolute;
+		top: 14px;
+	}
+
+	.resultado-lenscope .lente-container .btn-lentes-geral .item2 .btn::after{
+		/*content: url('../../img/nossas-lentes/seta-d.svg');*/
+		right: 7px;
+		position: absolute;
+		top: 14px;
+	}
+
+	/*Ajuste lente-item no mobile*/
+	.resultado-lenscope .conteudo-lentes .lente-item-mobile {
+	    width: 86%;
+	    margin-left: 5px;
+	    margin-right: 5px;
+	    /*Necessidade do important -> existe uma class acima que sempre deixa o height
+	    100%, o que gera bug no mobile quando o smartphone alterna entre horizontal e
+	    vertical*/
+	    height: 410px!important;
+	}
+
+	.resultado-lenscope .conteudo-lentes-mobile{
+		/*Remove o padding do container para mobile*/
+		padding: 0px;
+	}
+
+	.resultado-lenscope .lente-container .btn-lentes-geral .btn {
+	    width: 100%;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	    background-color: transparent;
+	    padding-top: 12px;
+	    padding-bottom: 12px;
+	}
+
+	.resultado-lenscope .lente-container .btn-lentes-geral {
+	    padding-top: 12px;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	}
+
+	/*Fim ajuste lente-item no mobile*/
+}

@@ -1,0 +1,324 @@
+/*INICIO BANNER*/
+.tamanho-armacao .banner-dicas{
+    background-color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+}
+/*FIM BANNER*/
+
+/*Inicio Duvidas*/
+.tamanho-armacao .duvidas{
+    background-color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/*Fim Duvidas*/
+
+/*Inicio Rodape Fluxo*/
+.tamanho-armacao .rodape-fluxo{
+    background-color: #38437A;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tamanho-armacao .rodape-fluxo .container{
+    max-width: 100%;
+    width: 100%;
+}
+/*Fim Rodape Fluxo*/
+
+/*Inicio Abas de Dicas*/
+.tamanho-armacao .abas-dicas{
+    background-color: #FFF;
+    padding: 0px;
+}
+
+.tamanho-armacao .abas-dicas .container{
+	/*max-width: 100%;
+	width: 100%;*/
+}
+
+.tamanho-armacao .abas-dicas .texto-evite{
+    display: none;
+}
+
+.tamanho-armacao .abas-dicas .nav.my-2{
+    margin-bottom: 0px !important;
+}
+
+.tamanho-armacao .abas-dicas ul.nav li.ativo{
+    position: relative;
+    z-index: 3;
+    background-color: #CCE6FF;
+    /*box-shadow: 0px -5px 10px -5px rgba(56,67,122,0.39);*/
+}
+
+.tamanho-armacao .abas-dicas ul.nav li.ativo h5{
+    text-decoration: none;
+}
+
+.tamanho-armacao .abas-dicas ul.nav li.nav-recomendacoes{
+    /*box-shadow: 0px -5px 10px -5px rgba(56,67,122,0.39);*/
+    margin-right: -30px;
+}
+
+.tamanho-armacao .abas-dicas ul.nav li.nav-recomendacoes{
+    background-color: #FFF;
+}
+
+.tamanho-armacao .abas-dicas ul.nav li.nav-evite{
+    background-color: #f1f1f1;
+}
+
+.tamanho-armacao .abas-dicas .nav .nav-item{
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 24%;
+}
+
+.tamanho-armacao .abas-dicas-3 .nav .nav-item{
+    width: 30%;
+}
+
+.tamanho-armacao .abas-dicas .nav .nav-item{
+    color: #38437A;
+    cursor: pointer;
+}
+
+.tamanho-armacao .abas-dicas .nav .nav-item h5{
+    color: #38437A;
+    margin: 0px;
+    text-decoration: underline;
+}
+/*Fim Abas de Dicas*/
+
+/*Inicio dv de dicas*/
+.tamanho-armacao .dicas_geral{
+	background-color: #CCE6FF;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.tamanho-armacao .dicas_geral .dica{
+	display: none;
+}
+
+.tamanho-armacao .dicas_geral .dica.ativo{
+	display: block;
+}
+/*Fim dv de dicas*/
+
+/*Inicio indica geral*/
+.tamanho-armacao .dicas_geral .dica .dica-armacoes-titulo{
+    background-color: #FFF;
+    color: #38437A;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(56,67,122,0.28);
+    font-size: 16px;
+    padding-top: 45px;
+    padding-bottom: 18px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.tamanho-armacao .dica-armacoes-img{
+    /*margin-left: -100%;*/
+    position: relative;
+    margin-bottom: -50px;
+    z-index: 2;
+}
+
+.tamanho-armacao .dica-armacoes-img2{
+    /*margin-bottom: -160px;*/
+}
+
+.tamanho-armacao .dica-armacoes-img3{
+    /*margin-bottom: -175px;*/
+}
+
+.tamanho-armacao .veja-encontrar .encontrar{
+        background-color: white;
+    
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(56,67,122,0.28);
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+        padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.veja-encontrar p,
+.tamanho-armacao .veja-encontrar h3{
+    color: #38437A;
+}
+
+.tamanho-armacao .dicas_geral .mobile{
+    padding: 0px;
+}
+
+.tamanho-armacao .indica-container.mobile{
+    padding: 0px;
+}
+
+.tamanho-armacao .dicas_geral .botoes .dica__anterior{
+    display: none;
+}
+
+.tamanho-armacao .dicas_geral .botoes .dica__posterior.only{
+    width: 100%;
+}
+
+.tamanho-armacao .dicas_geral img.botoes__seta{
+    padding-bottom: 1px;
+}
+/*Fim indica geral*/
+
+/*Inicio edição de textos*/
+.tamanho-armacao .dica-armacoes-texto{
+    padding-top: 15px;
+}
+
+.tamanho-armacao ul.dica-armacoes-texto__lista{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+/*Fim edição de textos*/
+
+/*Configuração das imagem da dica 1*/
+.igual-ou-maior{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.dica-armacoes-titulo .dica-titulo{
+    padding-left: 10%;
+    padding-right: 10% !important;
+
+}
+
+.dica-armacoes-titulo #observacao{
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.dica-armacoes-titulo .img-dias-armacao{
+    padding-right: 0;
+    padding-left: 10%;
+}
+
+.dica-armacoes-titulo .alinhamento{
+    padding: 0;
+    margin: 0;
+}
+/*Fim configuração das imagem da dica 1*/
+
+@media (min-width: 768px){
+    .dica-armacoes-titulo .alinhamento{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .dica-armacoes-titulo .dica-titulo{
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 991px){
+    .tamanho-armacao .dica_baixo_tab li{
+        width: 33% !important;
+    }
+}
+
+@media (min-width: 992px){
+    /*dica-armacoes-img2 {
+        margin-bottom: -145px;
+    }
+    .dica-armacoes-img3{
+        margin-bottom: -150px;
+    }*/
+}
+
+@media (max-width: 768px){
+    /*.dica-armacoes-img2 {
+        margin-bottom: -170px;
+    }
+    .dica-armacoes-img3{
+        margin-bottom: -185px;
+    }*/
+
+
+    
+}
+
+@media (max-width: 575px){
+
+    .tamanho-armacao .rodape-fluxo__item:nth-child(1){
+        padding-bottom: 10px;
+    }
+
+    .tamanho-armacao .rodape-fluxo__item{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .tamanho-armacao .rodape-fluxo__item a,
+    .tamanho-armacao .rodape-fluxo__item input{
+        width: 100%;
+    }
+
+    .tamanho-armacao .rodape-fluxo button{
+        max-width: 100%;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .tamanho-armacao .dica-aro{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .tamanho-armacao .abas-dicas .nav .nav-item{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .tamanho-armacao .abas-dicas ul.nav li:nth-child(1){
+        width: 25%;
+        margin-left: -7px;
+        border-radius: 0px 20px 0px 0px;
+    }
+
+    .tamanho-armacao .abas-dicas ul.nav li:last-child{
+        width: 25%;
+        margin-right: -7px;
+        border-radius: 20px 0px 0px;
+    }
+
+    .tamanho-armacao .dicas_geral .botoes .btn{
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+}
+
+@media (max-width: 375px){
+    .tamanho-armacao .rodape-fluxo__item{
+        width: 100%;
+        margin: auto;
+    }
+
+    .tamanho-armacao .rodape-fluxo__item a,
+    .tamanho-armacao .rodape-fluxo__item input{
+        width: 100%;
+    }
+}
